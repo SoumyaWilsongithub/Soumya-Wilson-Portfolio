@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TalkTime - Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="project-detail">
+                <h1 style="font-family: Playfair Display,serif;">NotesApplication</h1>
+                <p class="project-summary"><strong>The Challenge:</strong> Standard local storage solutions (like SQLite) do not allow users to access their data across different devices or sessions.</p>
+                <p class="project-implementation"><strong>The Implementation:</strong> I developed a robust backend using Spring Boot with @RestController to manage full CRUD operations (Create, Read, Update, Delete). I used Spring Data JPA and MySQL to ensure all user notes are securely stored and retrievable via a cloud-sync experience.</p>
+                <p class="project-design"><strong>Architecture:</strong> The project follows professional software architecture patterns, featuring structured REST endpoints for seamless integration between the Android frontend and the backend database.</p>
+                <p><a href="https://github.com/SoumyaWilsongithub/NotesApplication" target="_blank" class="project-link">https://github.com/SoumyaWilsongithub/NotesApplication</a></p>
+                <div style="margin-top: 30px;">
+                    <a href="projects.html" class="back-btn"
+                        style="text-decoration: none; padding: 10px 20px; background-color: #333; color: white; border-radius: 5px;">←
+                        Back to Projects</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
